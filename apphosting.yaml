@@ -2,16 +2,5 @@ runConfig:
   minInstances: 0
   maxInstances: 2
 env:
-  # Get these values from the Firebase console
-  # - variable: NEXT_PUBLIC_FIREBASE_API_KEY
-  #   value: TODO
-  # - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-  #   value: TODO
-  # - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
-  #   value: TODO
-  # - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-  #   value: TODO
-  # - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-  #   value: TODO
-  # - variable: NEXT_PUBLIC_FIREBASE_APP_ID
-  #   value: TODO
+  - variable: GEMINI_API_KEY_3
+    secret: gemini-api-key-3
