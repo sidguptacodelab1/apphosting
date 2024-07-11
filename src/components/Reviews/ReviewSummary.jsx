@@ -10,7 +10,7 @@ export async function GeminiSummary({ restaurantId }) {
       restaurantId
   );
 
-  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY_3);
+  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY_NEW);
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash"});
 
   const reviewSeparator = "@";

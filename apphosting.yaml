@@ -2,5 +2,5 @@ runConfig:
   minInstances: 0
   maxInstances: 2
 env:
-  - variable: GEMINI_API_KEY_3
-    secret: gemini-api-key-3
+  - variable: GEMINI_API_KEY_NEW
+    secret: gemini-api-key-new
